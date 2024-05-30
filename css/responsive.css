@@ -1,0 +1,28 @@
+@media (max-width:991px) {
+header .navbar.custom-verify-header {
+    background: #000;
+    border-top: 0;
+}
+header .custom-verify-inner {
+    border-bottom: 0;
+    padding: 10px 0;
+}
+header .mob-none {
+    display: none;
+}
+header .desk-none {
+    display: block;
+}
+.main-document .row {
+    row-gap: 5px;
+}
+}
+@media (max-width:767px) {
+    header .custom-verify-inner {
+        justify-content: center;
+        padding: 10px 0;
+    }
+   .main-document .person img {
+        width: 100%;
+    }
+}
